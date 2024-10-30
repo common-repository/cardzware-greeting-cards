@@ -1,0 +1,207 @@
+.pwGreetingCardsMain {
+    max-width: 1440px !important;
+    margin: auto
+}
+
+.sc-bwzfXH.iTbbpu {
+    display: none
+}
+
+#custom-content .collection-grid-item__link,#custom-content form {
+    position: relative;
+    z-index: 2
+}
+
+#pw_cart_button {
+    background: #5cb85c;
+    margin-bottom: 15px
+}
+
+.collection__cover {
+    display: none
+}
+
+.hero-content__controls button,.hero-content__controls a.hero-content__controls-item {
+    background-color: #000!important
+}
+
+.hero-content__controls .hero-content__controls-item--count {
+    background: rgba(0,0,0,.5)
+}
+
+@media only screen and (max-width: 550px) {
+    #cardzware-popup .modal-body {
+        padding:35px!important
+    }
+
+    #cardzware-popup .btn {
+        width: 100%;
+        margin-bottom: 10px
+    }
+
+    .pw_breadcrumb {
+        font-size: 11px!important
+    }
+
+    /*.pw_breadcrumb li a:before {*/
+    /*    content: unset!important*/
+    /*}*/
+
+    /*.pw_breadcrumb li a:after {*/
+    /*    border-top: 13px solid transparent!important;*/
+    /*    border-bottom: 16px solid transparent!important;*/
+    /*    border-left: 13px solid #808080!important;*/
+    /*    top: 170%!important*/
+    /*}*/
+
+    .pw_breadcrumb li a,
+    .pw_breadcrumb li span {
+        padding: 5px 0 5px 0.5rem!important;
+        /*margin: 2px 7px*/
+    }
+
+    .pw_category_block {
+        margin: 0!important
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .template-product #cardzware-popup .modal-dialog {
+        top:15%
+    }
+
+    .template-product #pw_modal .modal-dialog {
+        height: 80%;
+        top: 8%
+    }
+
+    .template-product #pw_modal .modal-content {
+        height: 95%
+    }
+
+    .template-product #pw_modal .modal-body {
+        height: 100%
+    }
+}
+
+.template-product #pw_modal iframe,.template-product #cardzware-popup .modal-content {
+    border-radius: 6px
+}
+
+body.template-product .shopify-payment-button {
+    display: none
+}
+
+.featured-card__header,h1,h2,h3,h4,h5 {
+    color: #000c
+}
+
+#cardzware-popup,#pw_modal {
+    background: transparent;
+    z-index: 5000
+}
+
+#cardzware-popup .modal-body {
+    padding: 70px
+}
+
+#cardzware-popup button.close {
+    position: relative;
+    right: 10px;
+    z-index: 500
+}
+
+#cardzware-popup .modal-body span {
+    width: 100%;
+    display: block;
+    margin: 25px 0;
+    font-weight: 600
+}
+
+#cardzware-popup .btn-danger {
+    background: #ac2925
+}
+
+#cardzware-popup .btn-success {
+    background: #5cb85c
+}
+
+#pw_modal .modal-body {
+    padding: 0;
+}
+
+.template-product #pw_modal.modal,.template-product #cardzware-popup.modal {
+    text-align: center
+}
+
+@media screen and (min-width: 768px) {
+    .template-product #pw_modal.modal:before,.template-product #cardzware-popup.modal:before {
+        display:inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 100%
+    }
+}
+
+.template-product #pw_modal .modal-dialog,.template-product #cardzware-popup .modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle
+}
+
+.site-footer .social-icons .icon {
+    color: #706f6f
+}
+
+.pw_category_block {
+    width: 20%!important;
+    height: 20%!important
+}
+
+@media screen and (min-width: 400px) and (max-width: 768px) {
+    .pw_category_block {
+        width:35%!important;
+        height: 35%!important
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .pw_category_block {
+        width:48%!important;
+        height: 48%!important
+    }
+}
+
+.site-footer__section.social-section,.site-footer__section.social-section ul {
+    float: right
+}
+
+.collection-grid-item__link,.collection-grid-item input {
+    background-color: #01a0e1
+}
+
+.text-center {
+    text-align: center!important;
+}
+
+.cw-add-card-cart-button {
+    background: linear-gradient(60deg,#00a0df,#00a0df)!important;
+    color: white!important;
+    border: 0px;
+    padding: 1em!important;
+    font-size: 1em!important;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.cw-add-card-cart-button:hover {
+    cursor: pointer;
+    background: linear-gradient(60deg,#6fc4e6,#6fc4e6)!important;
+    border: 0px;
+    padding: 1em!important;
+    font-size: 1em!important;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+/*# sourceMappingURL=/s/files/1/0571/3094/2602/t/2/assets/custom_cardzware.css.map?v=4601863365734218755 */

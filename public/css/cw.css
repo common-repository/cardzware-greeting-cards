@@ -1,0 +1,164 @@
+/* anything that is less or equal to 579*819 display modal @ 95% width/height of parent window */
+@media all and (max-width:579px) {
+	#pw_modal {
+		/*desired percentage width of modal window in relation to screen */
+		width: 95% !important;
+	}
+	#pw_modal.fade.in {
+		/*desired gap from left (usually half the remaining percentage */
+		left:2.5% !important;
+	}
+	#pw_modal.fade {
+		/*must be the same as .modal.fade.in left*/
+		left:2.5% !important;
+	}
+}
+
+@media all and (max-height:819px) {
+	#pw_modal {
+		/*desired percentage width of modal window in relation to screen */
+		height: 95% !important;
+	}
+	#pw_modal.fade.in {
+		/*desired gap from top (usually half the remaining percentage */
+		top: 2.5% !important;
+	}
+}
+
+
+#pw_modal.modal {
+    height: 820px;
+    width: 580px;
+	z-index:9999999;
+	background-color: transparent !important;
+    min-width: 305px !important;
+}
+
+#pw_modal.fade {
+	top: -100%;
+	left:calc((100% - 580px)/2);
+	transform: translateY(0%) !important;
+}
+
+.disable-css-tranform-transition{
+    -webkit-transition: none !important;
+    transition: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+}
+
+#pw_modal.fade.in {
+    //position: relative;
+    //top: -63em;
+    top: calc((100% - 820px)/2);
+    left: calc((100% - 580px)/2);
+}
+
+#pw_modal .modal-body {
+	height: 100%;
+	width: 100%;
+	padding: 0px 0px 0px 0px;
+    background:url("../views/images/loading2.gif") center center no-repeat;
+    background-size: 25%;
+    background-color: white;
+}
+
+#pw_modal .modal-dialog {
+	height: 95%;
+	margin: 0px !important;
+	transform: translateY(0%) !important;
+}
+
+#pw_modal .modal-content {
+    height: 100%;
+    padding: 0px;
+	overflow:hidden;
+}
+.pw-modal-open{
+  overflow: hidden;
+  position: fixed;
+  width:100%;
+}
+#pw_iframe{
+	display:block;
+}
+
+.modal-open .modal::before {
+    height: 95% !important;
+}
+
+.modal-backdrop.fade.in {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000;
+    opacity: .5;
+}
+
+
+/*
+Category Tiles CSS START
+*/
+
+
+.pw_category_block{
+	padding-right: 0px;
+	padding-left: 0px;
+    /*float: left;*/
+    width: 181px;
+    height: 181px;
+    position: relative;
+    margin: 0 11px 11px 0;
+    overflow: hidden;
+    border: 1px solid #d4cdd5;
+    background-color: rgba(179, 234, 224,.3);
+}
+
+.pw_category_block_title {
+    width: 100%;
+    position: absolute;
+    display: block;
+    height: 50px;
+    background: rgba(24,188,156,.9);
+    font-family: arial;
+    font-weight: bold;
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+    -webkit-text-stroke-width: 0;
+    line-height: 50px;
+    bottom: 0;
+    //padding: 0 0 0 10px;
+}
+
+.pw_category_block img {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    transition: all .5s ease;
+}
+
+.pw_category_block:hover img {
+    //margin-top: -10px;
+	transition: all 1s ease;
+	transform:scale(1.25);
+}
+
+.pw_category_block:hover .pw_category_block_title {
+    background: rgba(15, 121, 101, 0.9);
+}
+
+.bootstrap-wrapper .modal-backdrop.in {
+    display: block;
+}
+
+#pw_iframe_id {
+    max-width: 100% !important;
+    max-height: 100% !important;
+}
+/*
+Category Tiles CSS END
+*/
